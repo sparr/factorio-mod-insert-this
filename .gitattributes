@@ -1,0 +1,13 @@
+# all files autodetect
+* text=auto
+
+# code use unix endings
+*.lua text eol=lf
+
+# other files use unix also
+.gitattributes text eol=lf
+
+# windows endings here
+
+# binary files here
+*.png binary
