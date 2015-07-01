@@ -27,6 +27,33 @@ data:extend(
     },
     extension_speed = 0.028,
     fast_replaceable_group = "inserter",
+    working_sound =
+    {
+      match_progress_to_activity = true,
+      sound =
+      {
+        {
+          filename = "__base__/sound/inserter-basic-1.ogg",
+          volume = 0.75
+        },
+        {
+          filename = "__base__/sound/inserter-basic-2.ogg",
+          volume = 0.75
+        },
+        {
+          filename = "__base__/sound/inserter-basic-3.ogg",
+          volume = 0.75
+        },
+        {
+          filename = "__base__/sound/inserter-basic-4.ogg",
+          volume = 0.75
+        },
+        {
+          filename = "__base__/sound/inserter-basic-5.ogg",
+          volume = 0.75
+        }
+      }
+    },
     hand_base_picture =
     {
       filename = "__base__/graphics/entity/basic-inserter/basic-inserter-hand-base.png",
@@ -48,14 +75,38 @@ data:extend(
       width = 20,
       height = 41
     },
+    hand_base_shadow =
+    {
+      filename = "__base__/graphics/entity/burner-inserter/burner-inserter-hand-base-shadow.png",
+      priority = "extra-high",
+      width = 8,
+      height = 34
+    },
+    hand_closed_shadow =
+    {
+      filename = "__base__/graphics/entity/burner-inserter/burner-inserter-hand-closed-shadow.png",
+      priority = "extra-high",
+      width = 18,
+      height = 41
+    },
+    hand_open_shadow =
+    {
+      filename = "__base__/graphics/entity/burner-inserter/burner-inserter-hand-open-shadow.png",
+      priority = "extra-high",
+      width = 18,
+      height = 41
+    },
     pickup_position = {0, -1},
     insert_position = {1.35, 0},
     platform_picture =
     {
-      priority = "extra-high",
-      width = 46,
-      height = 46,
-      sheet = "__base__/graphics/entity/basic-inserter/basic-inserter-platform.png"
+      sheet =
+      {
+        filename = "__base__/graphics/entity/basic-inserter/basic-inserter-platform.png",
+        priority = "extra-high",
+        width = 46,
+        height = 46
+      }
     },
     rotation_speed = 0.014
   },
@@ -86,6 +137,33 @@ data:extend(
     },
     extension_speed = 0.028,
     fast_replaceable_group = "inserter",
+    working_sound =
+    {
+      match_progress_to_activity = true,
+      sound =
+      {
+        {
+          filename = "__base__/sound/inserter-basic-1.ogg",
+          volume = 0.75
+        },
+        {
+          filename = "__base__/sound/inserter-basic-2.ogg",
+          volume = 0.75
+        },
+        {
+          filename = "__base__/sound/inserter-basic-3.ogg",
+          volume = 0.75
+        },
+        {
+          filename = "__base__/sound/inserter-basic-4.ogg",
+          volume = 0.75
+        },
+        {
+          filename = "__base__/sound/inserter-basic-5.ogg",
+          volume = 0.75
+        }
+      }
+    },
     hand_base_picture =
     {
       filename = "__base__/graphics/entity/basic-inserter/basic-inserter-hand-base.png",
@@ -111,10 +189,13 @@ data:extend(
     insert_position = {-1.35, 0},
     platform_picture =
     {
-      priority = "extra-high",
-      width = 46,
-      height = 46,
-      sheet = "__base__/graphics/entity/basic-inserter/basic-inserter-platform.png"
+      sheet =
+      {
+        filename = "__base__/graphics/entity/basic-inserter/basic-inserter-platform.png",
+        priority = "extra-high",
+        width = 46,
+        height = 46
+      }
     },
     rotation_speed = 0.014
   },
@@ -145,6 +226,33 @@ data:extend(
     },
     extension_speed = 0.028,
     fast_replaceable_group = "inserter",
+    working_sound =
+    {
+      match_progress_to_activity = true,
+      sound =
+      {
+        {
+          filename = "__base__/sound/inserter-basic-1.ogg",
+          volume = 0.75
+        },
+        {
+          filename = "__base__/sound/inserter-basic-2.ogg",
+          volume = 0.75
+        },
+        {
+          filename = "__base__/sound/inserter-basic-3.ogg",
+          volume = 0.75
+        },
+        {
+          filename = "__base__/sound/inserter-basic-4.ogg",
+          volume = 0.75
+        },
+        {
+          filename = "__base__/sound/inserter-basic-5.ogg",
+          volume = 0.75
+        }
+      }
+    },
     hand_base_picture =
     {
       filename = "__base__/graphics/entity/basic-inserter/basic-inserter-hand-base.png",
@@ -170,10 +278,13 @@ data:extend(
     insert_position = {0.0, -0.65},
     platform_picture =
     {
-      priority = "extra-high",
-      width = 46,
-      height = 46,
-      sheet = "__base__/graphics/entity/basic-inserter/basic-inserter-platform.png"
+      sheet =
+      {
+        filename = "__base__/graphics/entity/basic-inserter/basic-inserter-platform.png",
+        priority = "extra-high",
+        width = 46,
+        height = 46
+      }
     },
     rotation_speed = 0.014
   },
@@ -204,6 +315,33 @@ data:extend(
     },
     extension_speed = 0.028,
     fast_replaceable_group = "inserter",
+    working_sound =
+    {
+      match_progress_to_activity = true,
+      sound =
+      {
+        {
+          filename = "__base__/sound/inserter-basic-1.ogg",
+          volume = 0.75
+        },
+        {
+          filename = "__base__/sound/inserter-basic-2.ogg",
+          volume = 0.75
+        },
+        {
+          filename = "__base__/sound/inserter-basic-3.ogg",
+          volume = 0.75
+        },
+        {
+          filename = "__base__/sound/inserter-basic-4.ogg",
+          volume = 0.75
+        },
+        {
+          filename = "__base__/sound/inserter-basic-5.ogg",
+          volume = 0.75
+        }
+      }
+    },
     hand_base_picture =
     {
       filename = "__base__/graphics/entity/basic-inserter/basic-inserter-hand-base.png",
@@ -229,10 +367,13 @@ data:extend(
     insert_position = {0.0, 1.35},
     platform_picture =
     {
-      priority = "extra-high",
-      width = 46,
-      height = 46,
-      sheet = "__base__/graphics/entity/basic-inserter/basic-inserter-platform.png"
+      sheet =
+      {
+        filename = "__base__/graphics/entity/basic-inserter/basic-inserter-platform.png",
+        priority = "extra-high",
+        width = 46,
+        height = 46
+      }
     },
     rotation_speed = 0.014
   },
@@ -266,6 +407,33 @@ data:extend(
     },
     extension_speed = 0.04,
     fast_replaceable_group = "inserter",
+    working_sound =
+    {
+      match_progress_to_activity = true,
+      sound =
+      {
+        {
+          filename = "__base__/sound/inserter-basic-1.ogg",
+          volume = 0.75
+        },
+        {
+          filename = "__base__/sound/inserter-basic-2.ogg",
+          volume = 0.75
+        },
+        {
+          filename = "__base__/sound/inserter-basic-3.ogg",
+          volume = 0.75
+        },
+        {
+          filename = "__base__/sound/inserter-basic-4.ogg",
+          volume = 0.75
+        },
+        {
+          filename = "__base__/sound/inserter-basic-5.ogg",
+          volume = 0.75
+        }
+      }
+    },
     hand_base_picture =
     {
       filename = "__base__/graphics/entity/long-handed-inserter/long-handed-inserter-hand-base.png",
@@ -289,11 +457,14 @@ data:extend(
     },
     platform_picture =
     {
-      priority = "extra-high",
-      width = 46,
-      height = 46,
-      sheet = "__base__/graphics/entity/long-handed-inserter/long-handed-inserter-platform.png"
-    }
+      sheet =
+      {
+        filename = "__base__/graphics/entity/basic-inserter/basic-inserter-platform.png",
+        priority = "extra-high",
+        width = 46,
+        height = 46,
+      }
+    },
   },
   {
     type = "inserter",
@@ -325,6 +496,33 @@ data:extend(
     },
     extension_speed = 0.04,
     fast_replaceable_group = "inserter",
+    working_sound =
+    {
+      match_progress_to_activity = true,
+      sound =
+      {
+        {
+          filename = "__base__/sound/inserter-basic-1.ogg",
+          volume = 0.75
+        },
+        {
+          filename = "__base__/sound/inserter-basic-2.ogg",
+          volume = 0.75
+        },
+        {
+          filename = "__base__/sound/inserter-basic-3.ogg",
+          volume = 0.75
+        },
+        {
+          filename = "__base__/sound/inserter-basic-4.ogg",
+          volume = 0.75
+        },
+        {
+          filename = "__base__/sound/inserter-basic-5.ogg",
+          volume = 0.75
+        }
+      }
+    },
     hand_base_picture =
     {
       filename = "__base__/graphics/entity/long-handed-inserter/long-handed-inserter-hand-base.png",
@@ -348,11 +546,13 @@ data:extend(
     },
     platform_picture =
     {
-      priority = "extra-high",
-      width = 46,
-      height = 46,
-      sheet = "__base__/graphics/entity/long-handed-inserter/long-handed-inserter-platform.png"
+      sheet =
+      {
+        filename = "__base__/graphics/entity/basic-inserter/basic-inserter-platform.png",
+        priority = "extra-high",
+        width = 46,
+        height = 46,
+      }
     }
   },
-}
-)
+})
