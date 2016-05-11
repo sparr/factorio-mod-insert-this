@@ -1,9 +1,9 @@
 {
   "name": "insert-this",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "title": "Insert This",
   "author": "sparr",
-  "homepage": "",
-  "dependencies": ["base >= 0.11.1"],
-  "description": "This mod adds more types of inserters"
+  "homepage": "https://github.com/sparr/factorio-mod-insert-this",
+  "dependencies": ["base >= 0.12.0"],
+  "description": "This mod adds right angle and same-side inserters"
 }

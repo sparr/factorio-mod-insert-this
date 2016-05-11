@@ -22,43 +22,33 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "inserter-near-pull",
+    name = "inserter-near",
     enabled = "false",
     ingredients =
     {
       {"basic-inserter", 1},
     },
-    result = "inserter-near-pull"
+    result = "inserter-near"
   },
   {
     type = "recipe",
-    name = "inserter-near-push",
-    enabled = "false",
-    ingredients =
-    {
-      {"basic-inserter", 1},
-    },
-    result = "inserter-near-push"
-  },
-  {
-    type = "recipe",
-    name = "inserter-near-to-far",
+    name = "inserter-long-pull",
     enabled = "false",
     ingredients =
     {
       {"long-handed-inserter", 1},
     },
-    result = "inserter-near-to-far"
+    result = "inserter-long-pull"
   },
   {
     type = "recipe",
-    name = "inserter-far-to-near",
+    name = "inserter-long-push",
     enabled = "false",
     ingredients =
     {
       {"long-handed-inserter", 1},
     },
-    result = "inserter-far-to-near"
+    result = "inserter-long-push"
   },  
 }
 )

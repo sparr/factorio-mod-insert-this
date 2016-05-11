@@ -17,19 +17,15 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "inserter-near-pull"
+        recipe = "inserter-near"
       },
       {
         type = "unlock-recipe",
-        recipe = "inserter-near-push"
+        recipe = "inserter-long-pull"
       },
       {
         type = "unlock-recipe",
-        recipe = "inserter-near-to-far"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "inserter-far-to-near"
+        recipe = "inserter-long-push"
       },
     },
     unit =
